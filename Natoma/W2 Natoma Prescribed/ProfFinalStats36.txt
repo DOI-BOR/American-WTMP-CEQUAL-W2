@@ -1,0 +1,8 @@
+ Overall Model Data Comparison Statistics
+                 ME           AME           RMS        Num      Run number:  36
+      Temp        0.0660        0.4431        0.6475        3149
+ 
+ 
+ Model Statistics by Segment
+                      ME           AME           RMS         Num  # Profiles
+Segment 34        0.0660        0.4431        0.6475        3149         355

@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CeQualW2Alt Name="W2 Natoma Prescribed">
+  <Description />
+  <DataLocations />
+  <InitialConditions Edit="false">
+    <ParameterList>
+      <Parameter Parameter="TEMPERATURE" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="10.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="TDS" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="GEN1" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="WATERAGE" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="BACTERIA" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="DGP" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="N2" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="H2S" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="CH4" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="SO4" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="FEII" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="FEOOH" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="MNII" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="MNO2" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="PO4" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="NH4" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="NO3" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="DSI" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="PSI" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="LDOM" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="RDOM" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="LPOM" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="RPOM" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="ALG1" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="ALG2" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="ALG3" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="ALG4" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="ALG5" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="ALG6" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="DO" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="TIC" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="ALK" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="LDOM-P" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="RDOM-P" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="LPOM-P" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="RPOM-P" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="LDOM-N" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="RDOM-N" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="LPOM-N" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="RPOM-N" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="MICROCYSTIN" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="CYLINDROSPERMOPSIN" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="ANATOXIN-A" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+      <Parameter Parameter="SAXITOXIN" Type="CONSTANT_VALUE">
+        <ConstantValue>
+          <WaterBodyList>
+            <WaterBody WaterBody="1" Value="0.0" />
+          </WaterBodyList>
+        </ConstantValue>
+        <VerticalProfiles VPRType="WATER_BODY">
+          <WaterBodyList />
+          <SegmentList />
+        </VerticalProfiles>
+      </Parameter>
+    </ParameterList>
+  </InitialConditions>
+  <HabitatVolume Compute="false">
+    <FishGroupList />
+  </HabitatVolume>
+  <AutoPort Compute="false">
+    <StructureList>
+      <Structure Branch="1" Location="ST 1" TargetType="AT_SITE_TOTAL_RELEASE" Segment="0" TempType="SINGLE" SingleTemp="0.0">
+        <TempTable />
+      </Structure>
+      <Structure Branch="1" Location="ST 2" TargetType="AT_SITE_TOTAL_RELEASE" Segment="0" TempType="SINGLE" SingleTemp="0.0">
+        <TempTable />
+      </Structure>
+      <Structure Branch="1" Location="ST 3" TargetType="AT_SITE_TOTAL_RELEASE" Segment="0" TempType="SINGLE" SingleTemp="0.0">
+        <TempTable />
+      </Structure>
+      <Structure Branch="1" Location="ST 5" TargetType="AT_SITE_TOTAL_RELEASE" Segment="0" TempType="SINGLE" SingleTemp="0.0">
+        <TempTable />
+      </Structure>
+    </StructureList>
+  </AutoPort>
+  <InitialElevation>
+    <SegmentElevationList>
+      <SegmentElevation Segment="1" Elevation="37.55" />
+      <SegmentElevation Segment="2" Elevation="37.55" />
+      <SegmentElevation Segment="3" Elevation="37.55" />
+      <SegmentElevation Segment="4" Elevation="37.55" />
+      <SegmentElevation Segment="5" Elevation="37.55" />
+      <SegmentElevation Segment="6" Elevation="37.55" />
+      <SegmentElevation Segment="7" Elevation="37.55" />
+      <SegmentElevation Segment="8" Elevation="37.55" />
+      <SegmentElevation Segment="9" Elevation="37.55" />
+      <SegmentElevation Segment="10" Elevation="37.55" />
+      <SegmentElevation Segment="11" Elevation="37.55" />
+      <SegmentElevation Segment="12" Elevation="37.55" />
+      <SegmentElevation Segment="13" Elevation="37.55" />
+      <SegmentElevation Segment="14" Elevation="37.55" />
+      <SegmentElevation Segment="15" Elevation="37.55" />
+      <SegmentElevation Segment="16" Elevation="37.55" />
+      <SegmentElevation Segment="17" Elevation="37.55" />
+      <SegmentElevation Segment="18" Elevation="37.55" />
+      <SegmentElevation Segment="19" Elevation="37.55" />
+      <SegmentElevation Segment="20" Elevation="37.55" />
+      <SegmentElevation Segment="21" Elevation="37.55" />
+      <SegmentElevation Segment="22" Elevation="37.55" />
+      <SegmentElevation Segment="23" Elevation="37.55" />
+      <SegmentElevation Segment="24" Elevation="37.55" />
+      <SegmentElevation Segment="25" Elevation="37.55" />
+      <SegmentElevation Segment="26" Elevation="37.55" />
+      <SegmentElevation Segment="27" Elevation="37.55" />
+      <SegmentElevation Segment="28" Elevation="37.55" />
+      <SegmentElevation Segment="29" Elevation="37.55" />
+      <SegmentElevation Segment="30" Elevation="37.55" />
+      <SegmentElevation Segment="31" Elevation="37.55" />
+      <SegmentElevation Segment="32" Elevation="37.55" />
+      <SegmentElevation Segment="33" Elevation="37.55" />
+      <SegmentElevation Segment="34" Elevation="37.55" />
+      <SegmentElevation Segment="35" Elevation="37.55" />
+    </SegmentElevationList>
+  </InitialElevation>
+  <Restart RestartFile="" />
+  <OutputInterval Interval="1Hour" />
+  <ExeOverrides>
+    <W2Exe>
+      <file>C:/1295. WTMP/W2 exe for HEC-WAT/hello.exe</file>
+      <enabled>true</enabled>
+    </W2Exe>
+    <PreW2Exe>
+      <file>C:/1295. WTMP/W2 exe for HEC-WAT/PreW2Console45.exe</file>
+      <enabled>true</enabled>
+    </PreW2Exe>
+  </ExeOverrides>
+  <ControlFile>w2_con.csv</ControlFile>
+</CeQualW2Alt>
+
