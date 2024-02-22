@@ -1,0 +1,47 @@
+Cell width [B(53,2)=4.358] < 5m which can cause stability problems
+Cell width [B(52,3)=4.317] < 5m which can cause stability problems
+Cell width [B(53,3)=4.317] < 5m which can cause stability problems
+Cell width [B(57,4)=4.540] < 5m which can cause stability problems
+Cell width [B(57,5)=4.540] < 5m which can cause stability problems
+Cell width [B(59,6)=4.582] < 5m which can cause stability problems
+Cell width [B(60,6)=4.582] < 5m which can cause stability problems
+Cell width [B(61,6)=4.582] < 5m which can cause stability problems
+Cell width [B(58,7)=4.807] < 5m which can cause stability problems
+Cell width [B(59,7)=4.582] < 5m which can cause stability problems
+Cell width [B(60,7)=4.582] < 5m which can cause stability problems
+Cell width [B(63,14)=4.691] < 5m which can cause stability problems
+Cell width [B(64,14)=4.691] < 5m which can cause stability problems
+Cell width [B(65,14)=4.691] < 5m which can cause stability problems
+Cell width [B(62,15)=4.601] < 5m which can cause stability problems
+Cell width [B(63,15)=4.601] < 5m which can cause stability problems
+Cell width [B(64,15)=4.601] < 5m which can cause stability problems
+Cell width [B(62,16)=4.601] < 5m which can cause stability problems
+Cell width [B(63,16)=4.601] < 5m which can cause stability problems
+Cell width [B(64,16)=4.601] < 5m which can cause stability problems
+Cell width [B(63,17)=4.691] < 5m which can cause stability problems
+Cell width [B(64,17)=4.691] < 5m which can cause stability problems
+Cell width [B(69,20)=11.825] < or > 10X width [B(69,21)=160.858]
+Cell width [B(75,21)=160.368] < or > 10X width [B(75,22)=10.581]
+Cell width [B(74,30)=12.722] < or > 10X width [B(74,31)=168.872]
+MET Warning: Check cloud cover since average [CloudCoverAverage:  2.807] < 3.0 [Note that CLOUD should be between 0-10] for WB:  1 in met.npt                                                                 
+Concentration Multiplier:CMULT is > 1.0. All output concentrations are multiplied by CMULT. CMULT=  1000.00000 for constituent #: 14
+Concentration Multiplier:CMULT is > 1.0. All output concentrations are multiplied by CMULT. CMULT=  1000.00000 for constituent #: 15
+Concentration Multiplier:CMULT is > 1.0. All output concentrations are multiplied by CMULT. CMULT=  1000.00000 for constituent #: 32
+Concentration Multiplier:CMULT is > 1.0. All output concentrations are multiplied by CMULT. CMULT=  1000.00000 for constituent #: 33
+Concentration Multiplier:CMULT is > 1.0. All output concentrations are multiplied by CMULT. CMULT=  1000.00000 for constituent #: 34
+Concentration Multiplier:CMULT is > 1.0. All output concentrations are multiplied by CMULT. CMULT=  1000.00000 for constituent #: 35
+Concentration Multiplier:CMULT is > 1.0. All output concentrations are multiplied by CMULT. CMULT=  1000.00000 for constituent #: 36
+Concentration Multiplier:CMULT is > 1.0. All output concentrations are multiplied by CMULT. CMULT=  1000.00000 for constituent #: 37
+Concentration Multiplier:CMULT is > 1.0. All output concentrations are multiplied by CMULT. CMULT=  1000.00000 for constituent #: 38
+Concentration Multiplier:CMULT is > 1.0. All output concentrations are multiplied by CMULT. CMULT=  1000.00000 for constituent #: 39
+Concentration Derived Multiplier: CDMULT is > 1.0. All output derived concentrations are multiplied by CDMULT. CDMULT=  1000.00000 for derived constituent #: 10
+Concentration Derived Multiplier: CDMULT is > 1.0. All output derived concentrations are multiplied by CDMULT. CDMULT=  1000.00000 for derived constituent #: 11
+Concentration Derived Multiplier: CDMULT is > 1.0. All output derived concentrations are multiplied by CDMULT. CDMULT=  1000.00000 for derived constituent #: 12
+Concentration Derived Multiplier: CDMULT is > 1.0. All output derived concentrations are multiplied by CDMULT. CDMULT=  1000.00000 for derived constituent #: 13
+Heat exchange solution control [SLHTC=      ET] is not recommended. TERM should be more accurate. Waterbody:1
+Longitudinal eddy diffusivity [DX=   1.000] 10x > DX-theory=  0.0492 for waterbody    1:Model may be unstable
+Longitudinal eddy viscosity [AX=   1.000] 10x > AX-theory=  0.0492 for waterbody    1:Model may be unstable
+Structure 1 selective withdrawal bottom layer [KBSTR=61] < bottom active layer [KB=84] in branch 1
+Initial constituent concentration = 0 for constituent 2 in waterbody 1
+Constituent 2 is " ON", but inflow constituent concentration is "OFF" for branch 1
+Constituent 2 is " ON", but distributed tributary inflow constituent concentration is "OFF" for branch 1
