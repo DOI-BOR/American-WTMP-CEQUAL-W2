@@ -2,14 +2,14 @@
 
  American River below Folsom and Lake Natoma                             
  Cardno now Stantec                                                      
-                                                                         
+ 様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様
  5/31/2022                                                               
-                                                                         
-                                                                         
-                                                                         
-                                                                         
-                                                                         
-                                                                         
+ 様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様
+ 様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様
+ 様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様
+ 様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様
+ 様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様
+ 様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様様
 
  Time Control
    Starting time (Julian day) [TMSTRT] =    1.00
@@ -186,7 +186,7 @@ Inflow/Outflow
 
  Input Filenames
    Control    = w2_con.csv                                                              
-   Restart    = rso7301.opt                                                             
+   Restart    = rso3301.opt                                                             
    Withdrawal = qwd.npt                                                                 
  
    Waterbody 1
@@ -199,7 +199,7 @@ Inflow/Outflow
      Inflow temperature                   = tin_br1.npt                                                             
      Inflow concentrations                = cin_br1.npt                                                             
      Outflow                              = qot_br1_adj.csv                                                         
-     Distributed tributary inflows        = qwb.opt                                                                 
+     Distributed tributary inflows        = qwb.csv                                                                 
      Distributed tributary temperatures   = tdt_br1.npt                                                             
      Distributed tributary concentrations = cdt_br1.npt                                                             
      Precipitation                        = pre_br1.npt                                                             
@@ -631,16 +631,16 @@ NO ATMOSPHERIC DEPOSITION FOR WATERBODY:    1
    Waterbody 1
       total inflows     total outflows
     average  maximum   average  maximum
-      91.89  2362.69     91.95  2354.37
+      91.85  2362.69     91.95  2354.37
 
      Branch 1
        Inflows
               total
          average  maximum
-            91.89  2362.69
+            91.85  2362.69
              upstream         tributaries     distributed tributaries     precipitation
          average  maximum   average  maximum      average  maximum      average  maximum
-           91.96  2362.69      0.00     0.00        -0.06   351.03         0.00     0.00
+           91.96  2362.69      0.00     0.00        -0.11   227.21         0.00     0.00
        Outflows
               outlets         withdrawals
          average  maximum   average  maximum
