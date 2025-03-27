@@ -2,19 +2,19 @@
 <CeQualW2Alt Name="W2 Natoma Prescribed">
   <Description />
   <DataLocations>
-    <DataLocation Name="Branch 1 Inflow" Class="hec2.model.DataLocation" DssPath="/W2:qin_br1.npt/Branch 1 Inflow/Flow-QIN//1HOUR/alt:ap:CeQualW2-Branch 1 Inflow/" ComputeType="Computed" Model="Scripting-OutputLink_W2_Folsom-DownstreamAmer" Parameter="Flow-QIN" OutOfDate="false" PrevModelIndex="0">
+    <DataLocation Name="Branch 1 Inflow" Class="hec2.model.DataLocation" DssPath="/W2:qin_br1.npt/Branch 1 Inflow/Flow-QIN//1HOUR/alt:ap:CeQualW2-Branch 1 Inflow/" ComputeType="Computed" Model="Scripting-OutputLink_W2_FATSPBYPASS-DownstreamAmer" Parameter="Flow-QIN" OutOfDate="false" PrevModelIndex="0">
       <ModelAlternative Name="W2 Natoma Prescribed" Program="CeQualW2" />
       <DownStreamLocation>
-        <DataLocation Name="W2_Natoma_InflowQ" Class="hec2.model.DataLocation" DssPath="//W2_Natoma_InflowQ/Flow//1HOUR/W2 Fol-Nat:F2018-03:Scripting-OutputLink_W2_Folsom-D/" ComputeType="Computed" Parameter="Flow" OutOfDate="false" PrevModelIndex="0">
-          <ModelAlternative Name="OutputLink_W2_Folsom-DownstreamAmer" Program="Scripting" />
+        <DataLocation Name="W2_Natoma_InflowQ" Class="hec2.model.DataLocation" DssPath="//W2_Natoma_InflowQ/Flow//1HOUR/W2 Fol-Nat:F2018-04:Scripting-OutputLink_W2_FATSPBYP/" ComputeType="Computed" Parameter="Flow" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="OutputLink_W2_FATSPBYPASS-DownstreamAmer" Program="Scripting" />
         </DataLocation>
       </DownStreamLocation>
     </DataLocation>
-    <DataLocation Name="Branch 1 Inflow" Class="hec2.model.DataLocation" DssPath="/W2:tin_br1.npt/Branch 1 Inflow/Temp-TIN//1HOUR/alt:ap:CeQualW2-Branch 1 Inflow/" ComputeType="Computed" Model="Scripting-OutputLink_W2_Folsom-DownstreamAmer" Parameter="Temp-TIN" OutOfDate="false" PrevModelIndex="0">
+    <DataLocation Name="Branch 1 Inflow" Class="hec2.model.DataLocation" DssPath="/W2:tin_br1.npt/Branch 1 Inflow/Temp-TIN//1HOUR/alt:ap:CeQualW2-Branch 1 Inflow/" ComputeType="Computed" Model="Scripting-OutputLink_W2_FATSPBYPASS-DownstreamAmer" Parameter="Temp-TIN" OutOfDate="false" PrevModelIndex="0">
       <ModelAlternative Name="W2 Natoma Prescribed" Program="CeQualW2" />
       <DownStreamLocation>
-        <DataLocation Name="W2_Natoma_InflowT" Class="hec2.model.DataLocation" DssPath="//W2_Natoma_InflowT/Temp-Water//1HOUR/W2 Fol-Nat:F2018-03:Scripting-OutputLink_W2_Folsom-D/" ComputeType="Computed" Parameter="Temp-Water" OutOfDate="false" PrevModelIndex="0">
-          <ModelAlternative Name="OutputLink_W2_Folsom-DownstreamAmer" Program="Scripting" />
+        <DataLocation Name="W2_Natoma_InflowT" Class="hec2.model.DataLocation" DssPath="//W2_Natoma_InflowT/Temp-Water//1HOUR/W2 Fol-Nat:F2018-04:Scripting-OutputLink_W2_FATSPBYP/" ComputeType="Computed" Parameter="Temp-Water" OutOfDate="false" PrevModelIndex="0">
+          <ModelAlternative Name="OutputLink_W2_FATSPBYPASS-DownstreamAmer" Program="Scripting" />
         </DataLocation>
       </DownStreamLocation>
     </DataLocation>
@@ -101,7 +101,7 @@
     <DataLocation Name="WB 1 Met" Class="hec2.model.DataLocation" DssPath="/W2:met.npt/WB 1 Met/PHI//1HOUR/alt:ap:CeQualW2-WB 1 Met/" ComputeType="Computed" Model="DSS File" Parameter="PHI" OutOfDate="false" PrevModelIndex="0">
       <ModelAlternative Name="W2 Natoma Prescribed" Program="CeQualW2" />
       <DownStreamLocation>
-        <DataLocation Name="FAIR OAKS" Class="hec2.model.DssDataLocation" DssPath="/MR AM.-NATOMA LAKE/FAIR OAKS/DIR-WIND-RADIANS//1Hour/251.40.133.1.2/" ComputeType="Computed" Parameter="DIR-WIND-RADIANS" OutOfDate="false" PrevModelIndex="0">
+        <DataLocation Name="Fair Oaks" Class="hec2.model.DssDataLocation" DssPath="/MR Am.-Natoma Lake/Fair Oaks/Dir-Wind//1Hour/251.40.133.1.2/" ComputeType="Computed" Parameter="Dir-Wind" OutOfDate="false" PrevModelIndex="0">
           <DssFile>shared\WTMP_American_Forecast.dss</DssFile>
         </DataLocation>
       </DownStreamLocation>
