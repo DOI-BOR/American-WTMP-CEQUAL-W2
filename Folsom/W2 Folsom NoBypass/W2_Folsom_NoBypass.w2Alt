@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CeQualW2Alt Name="W2 Folsom NoBypass">
+<CeQualW2Alt Name="W2 Folsom NoBypass" W2Version="v4.5">
   <Description />
   <DataLocations>
     <DataLocation Name="Branch 1 Inflow" Class="hec2.model.DataLocation" DssPath="/W2:qin_br1.npt/Branch 1 Inflow/Flow-QIN//1HOUR/alt:ap:CeQualW2-Branch 1 Inflow/" ComputeType="Computed" Model="DSS File" Parameter="Flow-QIN" OutOfDate="false" PrevModelIndex="0">
