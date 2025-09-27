@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CeQualW2Alt Name="W2 Folsom FixedATSP NoBypass">
+<CeQualW2Alt Name="W2 Folsom FixedATSP NoBypass" W2Version="v4.5">
   <Description />
   <DataLocations>
     <DataLocation Name="Branch 1 Inflow" Class="hec2.model.DataLocation" DssPath="/W2:qin_br1.npt/Branch 1 Inflow/Flow-QIN//1HOUR/alt:ap:CeQualW2-Branch 1 Inflow/" ComputeType="Computed" Model="DSS File" Parameter="Flow-QIN" OutOfDate="false" PrevModelIndex="0">
@@ -18,7 +18,7 @@
         </DataLocation>
       </DownStreamLocation>
     </DataLocation>
-    <DataLocation Name="Branch 3 Inflow" Class="hec2.model.DataLocation" DssPath="/W2:qin_br3.npt/Branch 3 Inflow/Flow-QIN//1HOUR/alt:ap:CeQualW2-Branch 3 Inflow/" ComputeType="Computed" Model="" Parameter="Flow-QIN" OutOfDate="false" PrevModelIndex="0">
+    <DataLocation Name="Branch 3 Inflow" Class="hec2.model.DataLocation" DssPath="/W2:qin_br3.npt/Branch 3 Inflow/Flow-QIN//1HOUR/alt:ap:CeQualW2-Branch 3 Inflow/" ComputeType="Computed" Parameter="Flow-QIN" OutOfDate="false" PrevModelIndex="0">
       <ModelAlternative Name="W2 Folsom FixedATSP NoBypass" Program="CeQualW2" />
     </DataLocation>
     <DataLocation Name="Branch 1 Inflow" Class="hec2.model.DataLocation" DssPath="/W2:tin_br1.npt/Branch 1 Inflow/Temp-TIN//1HOUR/alt:ap:CeQualW2-Branch 1 Inflow/" ComputeType="Computed" Model="DSS File" Parameter="Temp-TIN" OutOfDate="false" PrevModelIndex="0">
