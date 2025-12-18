@@ -1,4 +1,4 @@
-# American WTMP Shared
+# American WTMP CEQUAL W2
 The HEC-WAT cequal folder for the American River within the Bureau of Reclamation (USBR) Water Temperature Modeling Platform (WTMP).
 This repository is a dependency of the American WTMP Study repository.
 These files are files for W2 within the WTMP.
