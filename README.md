@@ -5,7 +5,7 @@ These files are files for W2 within the WTMP.
 
 
 ### Forecast
-Each model version has it's own folder containing the relevant files. These are those versions:
+Each model version has its own folder containing the relevant files. These are those versions:
 * Folsom
   * W2 Folsom
   * W2 Folsom FixedATSP
